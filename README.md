@@ -414,3 +414,27 @@ Securing backend APIs is a fundamental aspect of building a trustworthy and reli
 - **Ensuring Platform Integrity:** Authorization rules prevent users from tampering with data they don’t own, preserving platform trustworthiness.
 
 By incorporating these security layers, the Airbnb Clone will not only function reliably but also gain user trust through strong protection of their data and actions.
+
+## 🚀 CI/CD Pipeline
+
+### What is CI/CD?
+
+CI/CD stands for **Continuous Integration** and **Continuous Deployment/Delivery**. It is a software development practice that automates the process of integrating code changes, testing them, and deploying them to production environments. This approach helps ensure that changes are reliable, stable, and delivered quickly.
+
+### Why It’s Important for This Project
+
+Implementing CI/CD in the Airbnb Clone project provides the following benefits:
+- **Consistency:** Ensures that code is tested and built the same way every time before it's deployed.
+- **Faster Development:** Automates repetitive tasks like testing and deployment, speeding up the release cycle.
+- **Improved Code Quality:** Runs automated tests with every change to catch bugs early in the development process.
+- **Team Collaboration:** Enables multiple developers to work in parallel with minimal integration issues.
+
+### Tools We May Use
+
+- **GitHub Actions:** Automates workflows like testing, building, and deployment directly from the GitHub repository.
+- **Docker:** Ensures the application runs in consistent environments across development, staging, and production.
+- **Docker Compose:** Manages multi-container setups (e.g., app + database) for local testing and CI environments.
+- **Heroku / Render / Railway:** Can be used for automated deployment to a live environment.
+- **Pytest / Jest:** Used for running backend and frontend test suites respectively as part of the pipeline.
+
+By leveraging CI/CD, we maintain a high standard of software quality and reduce the chances of bugs or failures reaching production.

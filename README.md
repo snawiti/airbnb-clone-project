@@ -267,3 +267,78 @@ This project utilizes a modern full-stack technology stack designed to simulate 
 | **GitHub Actions** | A CI/CD tool used to automate testing, linting, and deployment workflows every time code is pushed to the repository. |
 | **HTML/CSS/JavaScript** | Core web technologies used for creating static content and styling in the frontend. Forms the foundation of the React UI. |
 | **CI/CD Pipeline** | Refers to the automated process of integrating code changes, testing, and deploying the application. Reduces errors and improves delivery speed. |
+
+## 🗃️ Database Design
+
+The Airbnb Clone project requires a well-structured relational database to handle users, listings, bookings, payments, and reviews. Below is an overview of the key entities, their fields, and the relationships between them.
+
+### 🧑 Users
+
+Represents all users of the platform, including hosts and guests.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `name`
+- `email` (unique)
+- `password_hash`
+- `user_type` (host or guest)
+
+### 🏠 Properties
+
+Represents listings that users (hosts) can create.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `host_id` (Foreign Key → Users)
+- `title`
+- `location`
+- `price_per_night`
+- `description`
+
+### 📅 Bookings
+
+Tracks booking transactions between guests and properties.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `guest_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `start_date`
+- `end_date`
+- `total_price`
+
+### 💬 Reviews
+
+Represents reviews left by guests after a completed booking.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `rating` (1–5)
+- `comment`
+- `created_at`
+
+### 💳 Payments
+
+Handles payment records for bookings.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `booking_id` (Foreign Key → Bookings)
+- `amount`
+- `payment_method`
+- `payment_status`
+- `paid_at`
+
+---
+
+### 🔗 Entity Relationships
+
+- A **User** can be both a **Host** (with multiple properties) and a **Guest** (with multiple bookings).
+- A **Property** is created by a **User (Host)** and can receive multiple **Bookings** and **Reviews**.
+- A **Booking** belongs to one **User (Guest)** and one **Property**.
+- A **Review** is written by a **User** for a specific **Property**, usually after a **Booking**.
+- A **Payment** is linked to one **Booking**, representing the financial transaction.
+
+This relational structure supports all the essential functionalities of a booking platform while allowing for scalability and data integrity.

@@ -1,62 +1,47 @@
 # airbnb-clone-project
-## Overview
+## 🏡 Project Overview
 
-This is a full-stack clone of the AirBnB platform. The project is built as part of a learning journey to understand and implement the core functionalities of a large-scale web application.
+This project is a full-stack clone of the popular accommodation booking platform **Airbnb**. The goal is to build a fully functional web application that allows users to:
 
-## Project Goals
+- Browse property listings
+- View detailed property information
+- Perform secure bookings
 
-- Recreate key features of the AirBnB website
-- Practice full-stack web development
-- Build a scalable, maintainable, and modular codebase
-- Learn best practices for collaborative software development
+The application will simulate real-world functionality and design to provide a seamless user experience.
 
-## Tech Stack
+## 🎯 Project Goals
 
-- **Frontend**: HTML, CSS, JavaScript (optional frameworks like React or Vue)
-- **Backend**: Python with Flask (or Django)
-- **Database**: MySQL or PostgreSQL
-- **Version Control**: Git & GitHub
-- **Deployment**: (Optional) Docker, Heroku, or AWS
+- Implement a responsive and accessible UI
+- Structure a scalable and maintainable full-stack web application
+- Practice team collaboration using version control and project roles
+- Learn and apply modern web development best practices
+- Complete the full development lifecycle including deployment
 
-## Author
+## 🛠️ Tech Stack
 
-- Sarafina Nawiti(https://github.com/snawiti)
+**Frontend:**
+- HTML
+- CSS
+- JavaScript (React)
 
-## UI/UX Design Planning
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (or other database solution)
 
-### Design Goals
+**Version Control:**
+- Git
+- GitHub
 
-- Create a clean, modern, and intuitive interface for users
-- Ensure seamless navigation across all pages
-- Optimize for both desktop and mobile responsiveness
-- Minimize the number of clicks needed to complete a booking
-- Use consistent styling and visual hierarchy to guide the user’s attention
+**Design:**
+- Figma (for UI/UX design)
 
-### Key Features to Implement
+**Others:**
+- Jest (for testing)
+- Docker (optional, for containerization)
+- CI/CD tools (GitHub Actions or similar)
 
-- Property search with filters (location, price, dates)
-- Interactive map integration
-- High-quality property image galleries
-- Booking calendar with availability indication
-- Secure checkout flow
-- Responsive navbar and footer
+---
 
-### Primary Pages Overview
+## 📁 Repository Structure (Planned)
 
-| Page                   | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| **Property Listing View**  | Displays a list/grid of available properties with images, prices, and ratings. Includes filtering and sorting options. |
-| **Listing Detailed View**  | Shows detailed information about a selected property, including full description, amenities, host details, and booking calendar. |
-| **Simple Checkout View**   | Final step of booking. Allows user to review booking details, enter payment information, and confirm the reservation. |
-
-### Importance of User-Friendly Design in a Booking System
-
-A user-friendly interface is essential in a booking system to:
-
-- Reduce friction during the booking process, increasing conversions
-- Build trust with users through a professional and polished experience
-- Ensure accessibility for users of all skill levels and devices
-- Minimize errors and confusion, especially during payment and confirmation
-- Encourage repeat usage and positive word-of-mouth referrals
-
-A smooth and enjoyable user experience is crucial to the success of any platform that handles reservations and payments.

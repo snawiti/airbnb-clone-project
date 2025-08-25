@@ -141,3 +141,45 @@ This project simulates a real-world team-based web development environment. Each
 | **DevOps Engineers**| - Set up CI/CD pipelines<br>- Manage hosting, servers, and environment configs<br>- Automate deployment and monitoring | Ensure smooth, reliable, and scalable deployment of the application with minimal downtime.     |
 | **Product Owner**   | - Define features and requirements<br>- Prioritize backlog items<br>- Serve as voice of the user/stakeholders | Align the product with business goals and user needs, ensuring features deliver real value.    |
 | **Scrum Master**    | - Facilitate agile ceremonies (standups, retrospectives, etc.)<br>- Remove team blockers<br>- Promote agile best practices | Enhance team productivity by ensuring efficient workflows and removing obstacles.              |
+
+## 🧩 UI Component Patterns
+
+To build a modular and scalable front-end architecture, we will develop reusable UI components that form the foundation of the Airbnb Clone interface. These components will follow consistent design patterns and will be responsive across various device sizes.
+
+### 🔼 Planned Components
+
+#### 🔹 Navbar
+- **Elements:**
+  - Logo (linked to homepage)
+  - Search bar (location, date, guest filters)
+  - User navigation (login/signup, profile menu)
+  - Responsive hamburger menu for mobile
+- **Purpose:** Provides intuitive and consistent navigation throughout the application.
+
+#### 🔹 Property Card
+- **Elements:**
+  - Featured image of the property
+  - Property title, location, and type
+  - Price per night
+  - Star rating and number of reviews
+  - Favorite (heart) button
+- **Purpose:** A compact, clickable unit displayed on the listing page to showcase individual properties.
+
+#### 🔹 Footer
+- **Elements:**
+  - Quick navigation links (About, Help, Terms, etc.)
+  - Social media icons
+  - Company contact info
+  - Copyright
+- **Purpose:** Offers useful links and company information while maintaining brand presence.
+
+---
+
+### 📐 Component Design Goals
+
+- **Reusability:** Each component should be designed for reuse across multiple pages or sections.
+- **Consistency:** Typography, colors, and spacing will follow the Figma design system.
+- **Responsiveness:** All components will adapt gracefully to mobile, tablet, and desktop screens.
+- **Accessibility:** Components will follow accessibility standards (e.g., proper ARIA roles, keyboard navigation).
+
+By building these components as isolated, well-structured units, we can accelerate development and maintain a clean, scalable codebase.

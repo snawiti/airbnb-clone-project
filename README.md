@@ -126,3 +126,18 @@ Identifying and adhering to the design properties in a mockup is crucial for the
 - **Design-Dev Communication:** Provides a shared visual language that bridges the gap between designers and developers.
 
 By extracting and applying Figma’s design specifications, we create a pixel-perfect and user-friendly interface that meets both aesthetic and functional standards.
+
+## 👥 Project Roles and Responsibilities
+
+This project simulates a real-world team-based web development environment. Each team member has a defined role with specific responsibilities that contribute to the success of the Airbnb Clone application.
+
+| Role               | Responsibilities                                                                                     | Contribution to Project Success                                                                 |
+|--------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Project Manager** | - Oversees project scope and timeline<br>- Coordinates communication between team members<br>- Tracks progress and manages deliverables | Ensures that the project stays on track, meets deadlines, and maintains team alignment.     |
+| **Frontend Developers** | - Implement UI components using React<br>- Ensure responsive and accessible design<br>- Integrate frontend with backend APIs | Deliver a smooth, user-friendly interface that brings the design to life and functions reliably. |
+| **Backend Developers** | - Build and maintain RESTful APIs<br>- Design database models and schemas<br>- Implement business logic and security | Provide the foundation for application functionality, data processing, and secure transactions. |
+| **Designers**       | - Create wireframes and mockups in Figma<br>- Maintain design system and visual consistency<br>- Collaborate on responsive layouts | Ensure the application is visually appealing, intuitive, and aligned with UX best practices.  |
+| **QA/Testers**      | - Write and run unit, integration, and UI tests<br>- Identify bugs and inconsistencies<br>- Verify functionality across devices | Improve product quality by ensuring all features work as expected and are free of major issues. |
+| **DevOps Engineers**| - Set up CI/CD pipelines<br>- Manage hosting, servers, and environment configs<br>- Automate deployment and monitoring | Ensure smooth, reliable, and scalable deployment of the application with minimal downtime.     |
+| **Product Owner**   | - Define features and requirements<br>- Prioritize backlog items<br>- Serve as voice of the user/stakeholders | Align the product with business goals and user needs, ensuring features deliver real value.    |
+| **Scrum Master**    | - Facilitate agile ceremonies (standups, retrospectives, etc.)<br>- Remove team blockers<br>- Promote agile best practices | Enhance team productivity by ensuring efficient workflows and removing obstacles.              |

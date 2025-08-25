@@ -182,3 +182,69 @@ To build a modular and scalable front-end architecture, we will develop reusable
 
 By building these components as isolated, well-structured units, we can accelerate development and maintain a clean, scalable codebase.
 
+## 👨‍💻 Team Roles
+
+The successful delivery of a full-stack project like the Airbnb Clone requires collaboration across multiple technical and non-technical roles. Below are the key team roles and their responsibilities based on industry standards and insights from the ITRexGroup blog.
+
+### 🛠️ Backend Developer
+- **Responsibilities:**
+  - Build and maintain server-side logic using frameworks like Django.
+  - Develop and secure RESTful or GraphQL APIs.
+  - Ensure high performance, scalability, and security of backend services.
+- **Contribution:** Powers the core business logic and enables frontend components to interact with the database.
+
+### 🗃️ Database Administrator (DBA)
+- **Responsibilities:**
+  - Design and manage relational databases (e.g., MySQL).
+  - Ensure data integrity, performance optimization, and backup strategies.
+  - Monitor database security and access controls.
+- **Contribution:** Maintains the data layer of the application, ensuring efficient and secure data storage.
+
+### 🎨 UI/UX Designer
+- **Responsibilities:**
+  - Design wireframes and mockups using Figma.
+  - Define consistent color schemes, typography, and layout systems.
+  - Ensure accessibility and responsive design across devices.
+- **Contribution:** Creates a user-centric design that improves usability and visual appeal.
+
+### 🧩 Frontend Developer
+- **Responsibilities:**
+  - Convert UI/UX designs into functional interfaces using React.
+  - Integrate APIs and manage application state.
+  - Optimize for mobile-first performance and accessibility.
+- **Contribution:** Delivers a responsive, intuitive, and visually aligned frontend experience.
+
+### 🔐 Security Specialist
+- **Responsibilities:**
+  - Implement authentication and authorization mechanisms.
+  - Protect APIs and user data using modern security best practices.
+  - Monitor for potential vulnerabilities and threats.
+- **Contribution:** Ensures that user data and business logic are safe from breaches and exploits.
+
+### 🔁 DevOps Engineer
+- **Responsibilities:**
+  - Set up CI/CD pipelines using tools like GitHub Actions or Docker.
+  - Manage cloud infrastructure and deployments.
+  - Automate testing and deployment processes.
+- **Contribution:** Facilitates fast, reliable, and repeatable application delivery to production.
+
+### 🧪 QA Engineer / Tester
+- **Responsibilities:**
+  - Write unit, integration, and end-to-end test cases.
+  - Perform manual and automated testing across devices and browsers.
+  - Document bugs and ensure issue resolution before release.
+- **Contribution:** Guarantees product quality, usability, and stability.
+
+### 📋 Product Owner
+- **Responsibilities:**
+  - Define the product vision and feature requirements.
+  - Prioritize tasks based on business value and user needs.
+  - Act as the main point of contact for stakeholders.
+- **Contribution:** Ensures that development efforts align with user expectations and business goals.
+
+### 🧭 Scrum Master / Project Manager
+- **Responsibilities:**
+  - Coordinate team efforts using agile methodologies.
+  - Organize sprints, standups, and retrospectives.
+  - Remove obstacles and support team productivity.
+- **Contribution:** Maintains smooth workflow, timely deliveries, and team alignment throughout the project lifecycle.

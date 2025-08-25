@@ -373,3 +373,44 @@ The project includes hashed passwords, authentication checks, role-based access 
 
 ### 🚀 CI/CD Integration
 With GitHub Actions or a similar pipeline, the project supports automated testing, builds, and deployment. This increases development speed and reduces human error.
+
+## 🔐 API Security
+
+Securing backend APIs is a fundamental aspect of building a trustworthy and reliable web application. Given that the Airbnb Clone project involves user data, financial transactions, and user-generated content, implementing robust security practices is non-negotiable.
+
+### 🔑 Key Security Measures
+
+#### 1. **Authentication**
+- We will implement token-based authentication (e.g., JWT) to verify the identity of users accessing the API.
+- This prevents unauthorized users from accessing sensitive endpoints and ensures only logged-in users can perform certain actions (like booking or posting properties).
+
+#### 2. **Authorization**
+- Role-based access control (RBAC) will be used to differentiate between users (guests vs. hosts vs. admins).
+- This ensures users can only perform actions that they are permitted to (e.g., only hosts can manage properties).
+
+#### 3. **Input Validation & Sanitization**
+- All input data will be validated on the backend to prevent common vulnerabilities such as SQL injection, cross-site scripting (XSS), and injection attacks.
+- Proper error handling will be implemented to avoid leaking internal system details.
+
+#### 4. **Rate Limiting**
+- Rate limiting will be applied to API endpoints to prevent brute force attacks and denial-of-service (DoS) attacks.
+- It ensures fair usage of the platform and protects system resources.
+
+#### 5. **HTTPS Enforcement**
+- All API communications will be encrypted via HTTPS to protect data in transit.
+- This helps safeguard sensitive user data such as login credentials and payment information from eavesdropping.
+
+#### 6. **Secure Payment Handling**
+- Although payment gateways will handle the actual transaction logic, we will ensure secure token exchanges and validate all payment data before processing.
+- This prevents payment fraud and unauthorized financial actions.
+
+---
+
+### 🔒 Why Security Matters
+
+- **Protecting User Data:** Users trust the platform with personal and financial information. Leaks or unauthorized access can cause severe legal and reputational damage.
+- **Preventing Abuse:** Security mechanisms like authentication, rate limiting, and validation help prevent malicious usage and system abuse.
+- **Securing Transactions:** Payments and bookings involve sensitive financial operations. Securing these endpoints ensures transaction integrity and user confidence.
+- **Ensuring Platform Integrity:** Authorization rules prevent users from tampering with data they don’t own, preserving platform trustworthiness.
+
+By incorporating these security layers, the Airbnb Clone will not only function reliably but also gain user trust through strong protection of their data and actions.

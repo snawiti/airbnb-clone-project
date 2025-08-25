@@ -342,3 +342,34 @@ Handles payment records for bookings.
 - A **Payment** is linked to one **Booking**, representing the financial transaction.
 
 This relational structure supports all the essential functionalities of a booking platform while allowing for scalability and data integrity.
+
+## 🧩 Feature Breakdown
+
+The Airbnb Clone project includes a set of core features that simulate the essential functionality of a real-world booking platform. These features ensure both hosts and guests have a complete and seamless experience across the platform.
+
+### 👤 User Management
+Users can sign up, log in, and manage their profiles. Depending on their role (guest or host), they can either book properties or list new ones. Authentication ensures secure access and personalized experiences.
+
+### 🏠 Property Management
+Hosts can list properties by providing details such as location, description, pricing, and images. They can also edit or remove listings as needed. This feature allows for a flexible and scalable inventory of properties.
+
+### 📅 Booking System
+Guests can check availability, select dates, and book properties directly through the platform. This system calculates the total price and ensures that overlapping bookings are prevented.
+
+### 💳 Payment Integration
+Simulated or real payment processing allows users to securely pay for bookings. This feature supports confirmation emails, receipts, and payment status tracking.
+
+### 💬 Review System
+After completing a booking, guests can leave ratings and comments on properties. Reviews help future guests make informed decisions and encourage quality service from hosts.
+
+### 🔍 Search and Filtering
+Users can search for properties based on location, date, price range, and amenities. Filters improve discoverability and enhance the overall user experience.
+
+### 📱 Responsive Design
+The application is fully responsive, offering seamless navigation on desktops, tablets, and mobile devices. This ensures accessibility for users on any device.
+
+### 🔐 Security Features
+The project includes hashed passwords, authentication checks, role-based access control, and secure API endpoints. These measures protect both user data and the system from unauthorized actions.
+
+### 🚀 CI/CD Integration
+With GitHub Actions or a similar pipeline, the project supports automated testing, builds, and deployment. This increases development speed and reduces human error.

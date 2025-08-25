@@ -88,3 +88,40 @@ A user-friendly booking system is critical for the success of this application. 
 - **Builds trust** with users through clean design and responsive feedback.
 
 The goal is to deliver an interface that feels natural, fast, and secure — mimicking the smooth experience users expect from modern booking platforms like Airbnb.
+
+---
+
+### 🎨 Figma Design Specifications
+
+#### 🖍️ Color Styles
+
+- **Primary Color:** `#FF5A5F` (Used for buttons, highlights, and primary actions)
+- **Secondary Color:** `#008489` (Used for supporting actions or accent elements)
+- **Background Color:** `#FFFFFF` (Base background for all pages)
+- **Text Color:** `#222222` (Primary text for content)
+- **Secondary Text Color:** `#717171` (Used for labels, hints, and secondary content)
+
+---
+
+#### 🔤 Typography
+
+| Use Case          | Font Family | Font Weight | Font Size |
+|------------------|-------------|-------------|-----------|
+| **Primary Font**  | Circular    | Medium (500)| 16px      |
+| **Headings**      | Circular    | Bold (700)  | 24px–32px |
+| **Secondary Text**| Circular    | Book (400)  | 14px      |
+
+*Note: If the Circular font is unavailable, use a modern sans-serif alternative like Inter, Helvetica, or Arial.*
+
+### 🧠 Why Design Properties Matter
+
+Identifying and adhering to the design properties in a mockup is crucial for the following reasons:
+
+- **Visual Consistency:** Ensures a unified look and feel across the entire application.
+- **Development Accuracy:** Developers can match the exact styles specified, reducing guesswork.
+- **User Experience:** Consistent typography and color usage create a more intuitive and professional UI.
+- **Branding:** Helps maintain brand identity by following predefined style guides.
+- **Design-Dev Communication:** Provides a shared visual language that bridges the gap between designers and developers.
+
+By extracting and applying Figma’s design specifications, we create a pixel-perfect and user-friendly interface that meets both aesthetic and functional standards.
+

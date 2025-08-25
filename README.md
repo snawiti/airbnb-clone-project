@@ -250,3 +250,20 @@ The successful delivery of a full-stack project like the Airbnb Clone requires c
   - Organize sprints, standups, and retrospectives.
   - Remove obstacles and support team productivity.
 - **Contribution:** Maintains smooth workflow, timely deliveries, and team alignment throughout the project lifecycle.
+
+## 🧰 Technology Stack
+
+This project utilizes a modern full-stack technology stack designed to simulate the architecture and workflow of a production-grade booking platform like Airbnb. Below is a breakdown of the core technologies used and their specific purposes:
+
+| Technology     | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| **Django**     | A high-level Python web framework used to build scalable, secure, and maintainable backend APIs. It handles routing, business logic, and server-side processing. |
+| **MySQL**      | A relational database system used to store structured data such as users, bookings, listings, and reviews. Supports data normalization and complex queries. |
+| **GraphQL**    | A query language for APIs that allows clients to request only the data they need. Improves efficiency and flexibility in frontend-backend communication. |
+| **React**      | A JavaScript library used to build interactive and component-based user interfaces. Enables fast rendering and dynamic updates. |
+| **Figma**      | A collaborative design tool used to create and share wireframes, mockups, and visual design systems. Ensures UI/UX consistency. |
+| **Docker**     | A containerization platform that packages applications and their dependencies for consistent development, testing, and deployment. |
+| **Git & GitHub**| Version control system and hosting platform used for managing code, tracking changes, and enabling team collaboration via pull requests and branches. |
+| **GitHub Actions** | A CI/CD tool used to automate testing, linting, and deployment workflows every time code is pushed to the repository. |
+| **HTML/CSS/JavaScript** | Core web technologies used for creating static content and styling in the frontend. Forms the foundation of the React UI. |
+| **CI/CD Pipeline** | Refers to the automated process of integrating code changes, testing, and deploying the application. Reduces errors and improves delivery speed. |
